@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+body {
+  background: #621402 url("../img/bg.png") center top no-repeat;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.conteiner {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.menu {
+  display: flex;
+  margin: 40px 0 100px;
+}
+.menu__nav {
+  display: flex;
+  margin-left: 60px;
+}
+.menu__nav li + li {
+  margin-left: 25px;
+}
+.menu__nav li {
+  font-size: 14px;
+  margin: auto 0;
+}
+.menu__hi {
+  margin: auto 0 auto auto;
+  font-size: 16px;
+}
+.menu__icon {
+  margin-left: 11px;
+}
+a {
+  color: white;
+}
